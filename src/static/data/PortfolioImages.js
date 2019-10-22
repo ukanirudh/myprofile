@@ -1,3 +1,111 @@
+export const myWorks = {
+  himalayanTreks: [
+    {
+      activityName: 'Chaddar Trek',
+      activityDate: 'Jan 2018',
+      activityLocation: 'Leh/Ladakh',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Rupin Pass',
+      activityDate: 'June 2018',
+      activityLocation: 'Govind national park, Uttrakhand',
+      imageUrl: 'DSCN2060.JPG',
+    },
+  ],
+  westernghatsTreks: [
+    {
+      activityName: 'Kudremukha',
+      activityDate: 'Aug 2017/Sept 2018',
+      activityLocation: 'Kudremukha National park, Chickmagalur',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Gadayikallu fort',
+      activityDate: 'Oct 2017',
+      activityLocation: 'Chickmagalur',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Sharavathi Valley',
+      activityDate: 'July 2018',
+      activityLocation: 'Sharavati Valley Wildlife Sanctuary, Shimogha',
+      imageUrl: 'DSCN2060.JPG',
+    },
+
+    {
+      activityName: 'Kodachadri',
+      activityDate: 'Aug 2018',
+      activityLocation: 'Shimogha',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Ballarayana durga',
+      activityDate: 'Sept 2018',
+      activityLocation: 'Chickmagalur',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Kopatty trek',
+      activityDate: 'Oct 2018',
+      activityLocation: 'Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Kumaraparvatha-East approach',
+      activityDate: 'Nov 2018',
+      activityLocation: 'Pushpagiri Wildlife sanctury, Somwarpet',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Shinghani Gudda',
+      activityDate: 'Nov 2018',
+      activityLocation: 'Chickmagalur',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+  ],
+  localTreks: [
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+  ],
+  wildTours: [
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+    {
+      activityName: 'Bramhagiri peak',
+      activityDate: '',
+      activityLocation: 'Bramhagiri, Coorg/Kodagu',
+      imageUrl: 'DSCN2060.JPG',
+    },
+  ]
+}
+
 const galleryImages = [
   {
     imageUrl: 'DSCN1204.JPG',

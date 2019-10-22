@@ -11,11 +11,7 @@ const appsToConcat = [
       "./src/static/js/jquery-1.10.2.min",
       "./src/static/js/jquery-migrate-1.2.1.min",
       "./src/static/js/jquery.flexslider.js",
-      "./src/static/js/waypoints",
-      "./src/static/js/jquery.fittext",
-      "./src/static/js/magnific-popup",
       "./src/static/js/init",
-      "./src/static/js/modernizr.js"
     ]
   },
 ];
