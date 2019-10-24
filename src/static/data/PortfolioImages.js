@@ -1,110 +1,132 @@
-export const myWorks = {
-  himalayanTreks: [
-    {
-      activityName: 'Chaddar Trek',
-      activityDate: 'Jan 2018',
-      activityLocation: 'Leh/Ladakh',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Rupin Pass',
-      activityDate: 'June 2018',
-      activityLocation: 'Govind national park, Uttrakhand',
-      imageUrl: 'DSCN2060.JPG',
-    },
-  ],
-  westernghatsTreks: [
-    {
-      activityName: 'Kudremukha',
-      activityDate: 'Aug 2017/Sept 2018',
-      activityLocation: 'Kudremukha National park, Chickmagalur',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Gadayikallu fort',
-      activityDate: 'Oct 2017',
-      activityLocation: 'Chickmagalur',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Sharavathi Valley',
-      activityDate: 'July 2018',
-      activityLocation: 'Sharavati Valley Wildlife Sanctuary, Shimogha',
-      imageUrl: 'DSCN2060.JPG',
-    },
+export const myWorks = [
+  {
+    name: 'himalayanTreks',
+    displayName: 'Himalayan Treks',
+    activities: [
+      {
+        activityName: 'Chaddar Trek',
+        activityDate: 'Jan 2018',
+        activityLocation: 'Leh/Ladakh',
+        imageUrl: 'chaddar-trek-1.JPG',
+      },
+      {
+        activityName: 'Rupin Pass',
+        activityDate: 'June 2018',
+        activityLocation: 'Govind national park, Uttrakhand',
+        imageUrl: 'rupin-1.jpg',
+      },
+    ]
+  },
+  {
+    name: 'westernghatsTreks',
+    displayName: 'Western Ghats Treks',
+    activities: [
+      {
+        activityName: 'Kudremukha',
+        activityDate: 'Aug 2017/Sept 2018',
+        activityLocation: 'Kudremukha National park, Chickmagalur',
+        imageUrl: 'kudremukha-1.JPG',
+      },
+      {
+        activityName: 'Gadayikallu fort',
+        activityDate: 'Oct 2017',
+        activityLocation: 'Chickmagalur',
+        imageUrl: 'br-hills-1.JPG',
+      },
+      {
+        activityName: 'Sharavathi Valley',
+        activityDate: 'July 2018',
+        activityLocation: 'Sharavati Valley Wildlife Sanctuary, Shimogha',
+        imageUrl: 'sharavathi-1.jpg',
+      },
 
-    {
-      activityName: 'Kodachadri',
-      activityDate: 'Aug 2018',
-      activityLocation: 'Shimogha',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Ballarayana durga',
-      activityDate: 'Sept 2018',
-      activityLocation: 'Chickmagalur',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Kopatty trek',
-      activityDate: 'Oct 2018',
-      activityLocation: 'Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Kumaraparvatha-East approach',
-      activityDate: 'Nov 2018',
-      activityLocation: 'Pushpagiri Wildlife sanctury, Somwarpet',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Shinghani Gudda',
-      activityDate: 'Nov 2018',
-      activityLocation: 'Chickmagalur',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-  ],
-  localTreks: [
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-  ],
-  wildTours: [
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-    {
-      activityName: 'Bramhagiri peak',
-      activityDate: '',
-      activityLocation: 'Bramhagiri, Coorg/Kodagu',
-      imageUrl: 'DSCN2060.JPG',
-    },
-  ]
-}
+      {
+        activityName: 'Kodachadri',
+        activityDate: 'Aug 2018',
+        activityLocation: 'Shimogha',
+        imageUrl: 'kodachadri-1.jpg',
+      },
+      {
+        activityName: 'Ballarayana durga',
+        activityDate: 'Sept 2018',
+        activityLocation: 'Chickmagalur',
+        imageUrl: 'rani-jhari-ball.jpg',
+      },
+      {
+        activityName: 'Kopatty trek',
+        activityDate: 'Oct 2018',
+        activityLocation: 'Coorg/Kodagu',
+        imageUrl: 'kopatty-1.JPG',
+      },
+      {
+        activityName: 'Kumaraparvatha-East approach',
+        activityDate: 'Nov 2018',
+        activityLocation: 'Pushpagiri Wildlife sanctury, Somwarpet',
+        imageUrl: 'kp-east-1.JPG',
+      },
+      {
+        activityName: 'Shinghani Gudda',
+        activityDate: 'Nov 2018',
+        activityLocation: 'Chickmagalur',
+        imageUrl: 'shinghani-gudda.JPG',
+      },
+      {
+        activityName: 'Bramhagiri peak',
+        activityDate: '',
+        activityLocation: 'Bramhagiri, Coorg/Kodagu',
+        imageUrl: 'bramhagiri.jpg',
+      },
+    ]
+  },
+  // {
+  //   name: 'localTreks',
+  //   displayName: 'Local Treks',
+  //   activities: [
+  //     {
+  //       activityName: 'Bramhagiri peak',
+  //       activityDate: '',
+  //       activityLocation: 'Bramhagiri, Coorg/Kodagu',
+  //       imageUrl: 'DSCN2060.JPG',
+  //     },
+  //     {
+  //       activityName: 'Bramhagiri peak',
+  //       activityDate: '',
+  //       activityLocation: 'Bramhagiri, Coorg/Kodagu',
+  //       imageUrl: 'DSCN2060.JPG',
+  //     },
+  //   ]
+  // },
+  {
+    name: 'wildTours',
+    displayName: 'Wild Tours and Birding',
+    activities: [
+      {
+        activityName: 'Tadoba',
+        activityDate: 'April 2019, Oct 2019',
+        activityLocation: 'Chandrapur, Maharastra',
+        imageUrl: 'tadoba-5.JPG',
+      },
+      {
+        activityName: 'Magadi lake',
+        activityDate: 'Dec 2018',
+        activityLocation: 'Magadi, Gadag',
+        imageUrl: 'magadi-bhg.JPG',
+      },
+      {
+        activityName: 'Ankasamudra and Tungabhadra backwaters',
+        activityDate: 'Dec 2018',
+        activityLocation: 'Tungabhadra Backwaters, Hospet',
+        imageUrl: 'tb-backwaters-1.JPG',
+      },
+      {
+        activityName: 'Deccan plateau Exploration',
+        activityDate: 'May 2019',
+        activityLocation: 'Koppal, Gajendragad, Yelburga',
+        imageUrl: 'koppal-2.JPG',
+      },
+    ]
+  }
+]
 
 const galleryImages = [
   {
