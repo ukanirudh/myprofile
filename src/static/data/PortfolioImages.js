@@ -8,12 +8,14 @@ export const myWorks = [
         activityDate: 'Jan 2018',
         activityLocation: 'Leh/Ladakh',
         imageUrl: 'chaddar-trek-1.JPG',
+        externalSrc: 'https://trippinzindagi.wordpress.com/2018/01/31/the-enduring-chaddar-trek/'
       },
       {
         activityName: 'Rupin Pass',
         activityDate: 'June 2018',
         activityLocation: 'Govind national park, Uttrakhand',
         imageUrl: 'rupin-1.jpg',
+        externalSrc: 'https://trippinzindagi.wordpress.com/2018/06/17/rupin-pass/'
       },
     ]
   },
