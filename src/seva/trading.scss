@@ -22,3 +22,10 @@
     color: black;
   }
 }
+
+.portfolio-workgrp-container .portfolio-card {
+  &.ui.card > .image > img {
+    image-orientation: from-image;
+    height: 250px;
+  }
+}
