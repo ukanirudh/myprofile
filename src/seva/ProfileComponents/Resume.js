@@ -5,6 +5,7 @@ import DesktopContainer from './desktopContainer'
 import Education from './ResumeSection/Education'
 import Work from './ResumeSection/Work'
 import Skills from './ResumeSection/Skills'
+import DownloadResume from './DownloadResume'
 
 const Resume = () => {
   return (
@@ -15,6 +16,7 @@ const Resume = () => {
         <Work />
         <Skills />
         <Education />
+        <DownloadResume />
       </section>
       {/*<Footer />*/}
     </React.Fragment>
