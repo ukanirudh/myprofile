@@ -11,7 +11,7 @@ const Contact = () => {
       <section id="contact">
         <div className="row section-head">
            <div className="two columns header-col">
-              <h1><span>Get In Touch.</span></h1>
+              <img className="profile-pic"  src={require('../../static/images/profile.png')} alt="" />
            </div>
 
            <div className="ten columns">
@@ -26,17 +26,23 @@ const Contact = () => {
            <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
-                <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
-                </p>
+                <span>Anirudh UK</span>
+                <br />
+                 <span>
+                   #894, PV Rai, 2nd floor, 5th B main, vijaybank layout,
+                   Bengaluru
+                 </span>
+                 <br />
+                 <span>+91-9036565202</span>
+                 <br />
+                 <span>+91-7892329983</span>
+                 <br />
+                <span>anirudh.anirudh93@gmail.com</span>
               </div>
           </aside>
         </div>
       </section>
-      <Footer />
+      {/*<Footer />*/}
     </React.Fragment>
   )
 }

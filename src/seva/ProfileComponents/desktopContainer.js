@@ -40,7 +40,7 @@ export default class DesktopContainer extends Component {
                      <h3>
                       An <span>UI developer</span> by profession. A <span>Traveller</span> and <span>Trekker</span> by passion.
                      </h3>
-                     <h3> Climb the mountains, not so that the world can see you, but so that you can see the world </h3>
+                     <h3> <i> "Climb the mountains, not so that the world can see you, but so that you can see the world" </i></h3>
                      <hr />
                      <ul className="social">
                         <li><a href="https://www.facebook.com/anirudh.kukkilaya.3" target='_blank'><i class="fab fa-facebook"></i></a></li>
@@ -49,6 +49,13 @@ export default class DesktopContainer extends Component {
                         <li><a href="https://www.instagram.com/anirudhuk/" target='_blank'><i class="fab fa-instagram"></i></a></li>
                         <li><a href="http://trippinzindagi.wordpress.com/" target='_blank'><i class="fab fa-wordpress"></i></a></li>
                      </ul>
+                     <hr />
+                     <h3>For Wild tours and expeditions, follow us on WindTrails</h3>
+                     <ul className="social">
+                       <li><a href="https://www.facebook.com/WindtrailsIndia-101865791197770/" target='_blank'><i class="fab fa-facebook"></i></a></li>
+                       <li><a href="https://www.instagram.com/windtrailsindia/" target='_blank'><i class="fab fa-instagram"></i></a></li>
+                       <li><a href="http://trippinzindagi.wordpress.com/" target='_blank'><i class="fab fa-wordpress"></i></a></li>
+                     </ul>
                   </div>
                </div>
                {
@@ -56,7 +63,6 @@ export default class DesktopContainer extends Component {
                                 <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                               </p>
                }
-
                </header>
           </Segment>
         </Visibility>

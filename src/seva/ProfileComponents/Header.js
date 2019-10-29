@@ -48,7 +48,7 @@ class Header extends Component {
                        <h3>
                         An <span>UI developer</span> by profession. A <span>Traveller</span> and <span>Trekker</span> by passion.
                        </h3>
-                       <h3> Climb the mountains, not so that the world can see you, but so that you can see the world </h3>
+                       <h3> <i> Climb the mountains, not so that the world can see you, but so that you can see the world </i> </h3>
                        <hr />
                        <ul className="social">
                           <li><a href="https://www.facebook.com/anirudh.kukkilaya.3" target='_blank'><i className="fa fa-facebook"></i></a></li>
