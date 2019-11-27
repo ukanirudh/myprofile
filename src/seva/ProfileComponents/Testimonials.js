@@ -2,6 +2,8 @@ import React from 'react'
 //import Header from './Header'
 import Footer from './Footer'
 import DesktopContainer from './desktopContainer'
+import ExpeditionSlider from './Expeditions/ExpeditionSlider'
+import {Segment} from 'semantic-ui-react'
 
 const Testimonials = () => {
   return (
@@ -14,16 +16,11 @@ const Testimonials = () => {
           </div>
          <div className="text-container">
             <div className="row">
-               <div className="two columns header-col"></div>
+               {/*<div className="two columns header-col">
+               </div>*/}
 
-               <div className="ten columns flex-container">
-                  <div className="flexslider">
-                     <ul className="slides">
-                       <li>
-                          <blockquote>
-                             <p>Coming soon...</p>
-                          </blockquote>
-                       </li>
+               <div className="twelve columns flex-container">
+                  <ExpeditionSlider />
                         {/*<li>
                            <blockquote>
                               <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
@@ -43,8 +40,6 @@ const Testimonials = () => {
                               <cite>Mr. Adobe</cite>
                            </blockquote>
                         </li>*/}
-                     </ul>
-                  </div>
                </div>
             </div>
           </div>

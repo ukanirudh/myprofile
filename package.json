@@ -51,6 +51,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "node-sass": "^4.11.0",
+    "pure-react-carousel": "^1.23.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",

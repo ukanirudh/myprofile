@@ -2,28 +2,6 @@ const path = require("path");
 const fs  = require('fs');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const ConcatPlugin = require("webpack-concat-plugin");
-
-const appsToConcat = [
-  {
-    name: "library",
-    files: [
-      "./src/static/js/jquery-1.10.2.min",
-      "./src/static/js/jquery-migrate-1.2.1.min",
-      "./src/static/js/jquery.flexslider.js",
-      "./src/static/js/init",
-    ]
-  },
-];
-
-const concatedModules = appsToConcat.map(app => {
-  return new ConcatPlugin({
-    uglify: true,
-    filesToConcat: app.files,
-    fileName: `${app.name}.js`
-  });
-});
-
 
 module.exports = {
   entry: "./src/index.js",
@@ -109,7 +87,6 @@ module.exports = {
     ]
   },
   plugins: [
-    ...concatedModules,
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional

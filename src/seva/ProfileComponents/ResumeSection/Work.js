@@ -10,7 +10,7 @@ const Work = () => {
        <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>Syncron Internation</h3>
+              <h3>Syncron International</h3>
               <p className="info">Software Engineer, UI developer<span>&bull;</span> <em className="date">Oct 2019 - Present</em></p>
               <p>
               Product: Syncron Price analytics tool
