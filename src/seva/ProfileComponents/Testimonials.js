@@ -1,24 +1,16 @@
 import React from 'react'
-//import Header from './Header'
-import Footer from './Footer'
-import DesktopContainer from './desktopContainer'
 import ExpeditionSlider from './Expeditions/ExpeditionSlider'
 import {Segment} from 'semantic-ui-react'
 
 const Testimonials = () => {
   return (
     <React.Fragment>
-      {/*<Header />*/}
-      {/*<DesktopContainer />*/}
       <section id="testimonials">
           <div className="row">
             <h1>Client Testimonials</h1>
           </div>
          <div className="text-container">
             <div className="row">
-               {/*<div className="two columns header-col">
-               </div>*/}
-
                <div className="twelve columns flex-container">
                   <ExpeditionSlider />
                         {/*<li>
@@ -29,22 +21,11 @@ const Testimonials = () => {
                               </p>
                               <cite>Steve Jobs</cite>
                            </blockquote>
-                        </li>
-
-                        <li>
-                           <blockquote>
-                              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                              nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                              </p>
-                              <cite>Mr. Adobe</cite>
-                           </blockquote>
                         </li>*/}
                </div>
             </div>
           </div>
       </section>
-      {/*<Footer />*/}
     </React.Fragment>
   )
 }

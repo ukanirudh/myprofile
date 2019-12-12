@@ -7,7 +7,7 @@ const DetailedAboutMe = () => {
         <div className="eight columns">
           <h2>My Journey</h2>
           <p>
-          As we tend to belive, every person needs to have an identity apart from his professional life(unless his passion and profession isnt the same).
+          As we tend to belive, every person needs to have an identity apart from his professional life(unless his passion and profession is the same).
           Which also defines the core values we belive in our lives and something we enjoy doing it, no matter the number of times we repeat.
           </p>
           <p className="">
