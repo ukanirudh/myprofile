@@ -1,4 +1,8 @@
 import React from 'react'
+import {cloudinaryConfig} from '../constants'
+
+const {cloudName, aboutSectionUrl} = cloudinaryConfig
+import {Image, CloudinaryContext} from 'cloudinary-react';
 
 const DetailedAboutMe = () => {
   return (
@@ -24,7 +28,9 @@ const DetailedAboutMe = () => {
           <p>Take a peek at, some of the <span><a href="#portfolio">expeditions and wild tours</a></span> we have been to</p>
         </div>
         <div className="four columns header-col">
-          <img className="profile-pic"  src={require('../../static/images/profile-2.jpg')} alt="" />
+          <CloudinaryContext cloudName={cloudName}>
+            <Image publicId={`${aboutSectionUrl}/profile_2`} height="150px" angle="0" />
+          </CloudinaryContext>
         </div>
       </div>
     </React.Fragment>

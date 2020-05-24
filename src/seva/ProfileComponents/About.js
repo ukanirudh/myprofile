@@ -1,18 +1,19 @@
 import React from 'react'
-//import Header from './Header'
-import Footer from './Footer'
-import DesktopContainer from './desktopContainer'
 import DetailedAboutMe from './DetailedAboutMe'
+import {cloudinaryConfig} from '../constants'
+
+const {cloudName, aboutSectionUrl} = cloudinaryConfig
+import {Image, CloudinaryContext} from 'cloudinary-react';
 
 const About = () => {
   return (
     <React.Fragment>
-      {/*<Header />*/}
-      {/*<DesktopContainer />*/}
       <section id="about">
          <div className="row">
             <div className="three columns">
-               <img className="profile-pic"  src={require('../../static/images/profile.png')} alt="" />
+               <CloudinaryContext cloudName={cloudName}>
+                  <Image publicId={`${aboutSectionUrl}/profile`} width="100%" height="150px" />
+               </CloudinaryContext>
             </div>
 
             <div className="nine columns main-col">
@@ -30,7 +31,6 @@ const About = () => {
          </div>
          <DetailedAboutMe />
       </section>
-      {/*<Footer />*/}
     </React.Fragment>
   )
 }

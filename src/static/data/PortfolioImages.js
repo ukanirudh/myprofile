@@ -7,14 +7,14 @@ export const myWorks = [
         activityName: 'Chaddar Trek',
         activityDate: 'Jan 2018',
         activityLocation: 'Leh/Ladakh',
-        imageUrl: 'chaddar-trek-1.JPG',
+        imageUrl: 'chaddar_trek_1',
         externalSrc: 'https://trippinzindagi.wordpress.com/2018/01/31/the-enduring-chaddar-trek/'
       },
       {
         activityName: 'Rupin Pass',
         activityDate: 'June 2018',
         activityLocation: 'Govind national park, Uttrakhand',
-        imageUrl: 'rupin-1.jpg',
+        imageUrl: 'rupin_1',
         externalSrc: 'https://trippinzindagi.wordpress.com/2018/06/17/rupin-pass/'
       },
     ]
@@ -27,77 +27,59 @@ export const myWorks = [
         activityName: 'Kudremukha',
         activityDate: 'Aug 2017/Sept 2018',
         activityLocation: 'Kudremukha National park, Chickmagalur',
-        imageUrl: 'kudremukha-1.JPG',
+        imageUrl: 'kudremukha_1',
       },
       {
         activityName: 'Gadayikallu fort',
         activityDate: 'Oct 2017',
         activityLocation: 'Chickmagalur',
-        imageUrl: 'br-hills-1.JPG',
+        imageUrl: 'br_hills_1',
       },
       {
         activityName: 'Sharavathi Valley',
         activityDate: 'July 2018',
         activityLocation: 'Sharavati Valley Wildlife Sanctuary, Shimogha',
-        imageUrl: 'sharavathi-1.jpg',
+        imageUrl: 'sharavathi_1',
       },
 
       {
         activityName: 'Kodachadri',
         activityDate: 'Aug 2018',
         activityLocation: 'Shimogha',
-        imageUrl: 'kodachadri-1.jpg',
+        imageUrl: 'kodachadri_1',
       },
       {
         activityName: 'Ballarayana durga',
         activityDate: 'Sept 2018',
         activityLocation: 'Chickmagalur',
-        imageUrl: 'rani-jhari-ball.jpg',
+        imageUrl: 'rani_jhari_ball',
       },
       {
         activityName: 'Kopatty trek',
         activityDate: 'Oct 2018',
         activityLocation: 'Coorg/Kodagu',
-        imageUrl: 'kopatty-1.JPG',
+        imageUrl: 'kopatty_1',
       },
       {
         activityName: 'Kumaraparvatha-East approach',
         activityDate: 'Nov 2018',
         activityLocation: 'Pushpagiri Wildlife sanctury, Somwarpet',
-        imageUrl: 'kp-east-1.JPG',
+        imageUrl: 'kp_east_1',
       },
       {
         activityName: 'Shinghani Gudda',
         activityDate: 'Nov 2018',
         activityLocation: 'Chickmagalur',
-        imageUrl: 'shinghani-gudda.JPG',
+        imageUrl: 'shinghani_gudda',
       },
       {
         activityName: 'Bramhagiri peak',
         activityDate: '',
         activityLocation: 'Bramhagiri, Coorg/Kodagu',
-        imageUrl: 'bramhagiri.jpg',
+        imageUrl: 'bramhagiri_1',
       },
     ]
   },
-  // {
-  //   name: 'localTreks',
-  //   displayName: 'Local Treks',
-  //   activities: [
-  //     {
-  //       activityName: 'Bramhagiri peak',
-  //       activityDate: '',
-  //       activityLocation: 'Bramhagiri, Coorg/Kodagu',
-  //       imageUrl: 'DSCN2060.JPG',
-  //     },
-  //     {
-  //       activityName: 'Bramhagiri peak',
-  //       activityDate: '',
-  //       activityLocation: 'Bramhagiri, Coorg/Kodagu',
-  //       imageUrl: 'DSCN2060.JPG',
-  //     },
-  //   ]
-  // },
   {
     name: 'wildTours',
     displayName: 'Wild Tours and Birding',
@@ -106,25 +88,25 @@ export const myWorks = [
         activityName: 'Tadoba',
         activityDate: 'April 2019, Oct 2019',
         activityLocation: 'Chandrapur, Maharastra',
-        imageUrl: 'tadoba-5.JPG',
+        imageUrl: 'tadoba_5',
       },
       {
         activityName: 'Magadi lake',
         activityDate: 'Dec 2018',
         activityLocation: 'Magadi, Gadag',
-        imageUrl: 'magadi-bhg.JPG',
+        imageUrl: 'magadi_bhg',
       },
       {
         activityName: 'Ankasamudra and Tungabhadra backwaters',
         activityDate: 'Dec 2018',
         activityLocation: 'Tungabhadra Backwaters, Hospet',
-        imageUrl: 'tb-backwaters-1.JPG',
+        imageUrl: 'tb_backwaters_1',
       },
       {
         activityName: 'Deccan plateau Exploration',
         activityDate: 'May 2019',
         activityLocation: 'Koppal, Gajendragad, Yelburga',
-        imageUrl: 'koppal-2.JPG',
+        imageUrl: 'koppal_2',
       },
     ]
   }
@@ -132,21 +114,21 @@ export const myWorks = [
 
 const galleryImages = [
   {
-    imageUrl: 'DSCN1204.JPG',
+    imageUrl: 'DSCN1204',
     activityName: '9th Workshop',
     activityDesc: 'Cub of Madhuri, Tadoba',
     activityDate: '29th Jan 2018',
     numParticipants: '10'
   },
   {
-    imageUrl: 'DSCN2060.JPG',
+    imageUrl: 'DSCN2060',
     activityName: '12th Workshop',
     activityDesc: 'Jungle Cat, Koppal',
     activityDate: '29th Jul 2018',
     numParticipants: '10'
   },
   {
-    imageUrl: 'DSCN1130.JPG',
+    imageUrl: 'DSCN1130',
     activityName: '6th Workshop',
     activityDesc: 'Mother of Tadoba-Madhuri',
     activityDate: '25th Sept 2017',

@@ -1,64 +1,70 @@
 import React, { useCallback, useState } from 'react'
-import { Card, Image, Container, Segment, Grid } from 'semantic-ui-react'
+import { Card, Container, Segment, Grid, Image } from 'semantic-ui-react'
 import {myWorks} from '../../static/data/PortfolioImages'
 import PortfolioImageModal from './PortfolioSpace/PortfolioImageModal'
-const imageBaseSrc = '../../static/images/works'
+import cloudinary from 'cloudinary-core';
+import {cloudinaryConfig} from '../constants'
 
+const {cloudName, portfolioSectionUrl} = cloudinaryConfig
+const cloudinaryCore = new cloudinary.Cloudinary({cloud_name: cloudName});
 
 const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [portfolioImagesArr, setPortfolioImagesArr] = useState([]);
+  const [curPortfolioImage, setCurPortfolioImage] = useState('');
 
   const handleModalOpen = useCallback(() => {
   setIsOpen(prev => !prev);
   }, []);
 
-  const handlePortfolioImagesArr = useCallback(() => {
-    let getAllImagesArray = myWorks.map((workGroup) => {
-      const {activities} = workGroup
-      return activities.map(({imageUrl}, activityIndex) => imageUrl)
-    })
-
-    getAllImagesArray = getAllImagesArray.flat()
-    if (portfolioImagesArr.length === 0) {
-      setPortfolioImagesArr(getAllImagesArray)
-    }
-  }, [portfolioImagesArr])
+  const portfolioImageSelect = useCallback((curImgUrl) => {
+    setCurPortfolioImage(curImgUrl)
+  }, [curPortfolioImage])
 
   const handleItemClick = (data) => {
-    const {currentActivity: {externalSrc}} = data
+    const {currentActivity: {externalSrc}, curImgUrl} = data
     if (externalSrc) {
       window.open(externalSrc)
     } else {
       handleModalOpen()
-      handlePortfolioImagesArr()
+      portfolioImageSelect(curImgUrl)
     }
   }
 
   return (
     <React.Fragment>
       <Container id='portfolio'>
-        <PortfolioImageModal allImages={portfolioImagesArr} modalOpen={isOpen} toggleModalOpen={handleModalOpen}/>
+        <PortfolioImageModal 
+          curImgUrl={curPortfolioImage} 
+          modalOpen={isOpen} 
+          toggleModalOpen={handleModalOpen}
+        />
         <div className='portfolio-sections-container'>
           {
             myWorks.map((workGroup, workIndex) => {
               const {name: workGroupName, displayName: workGroupdisplayName, activities} = workGroup
               return (
-                <Segment id={`${workGroupName}`} key={`${workGroupName}-${workIndex}`} className='portfolio-workgrp-container'>
+                <Segment 
+                  id={`${workGroupName}`} 
+                  key={`${workGroupName}-${workIndex}`} 
+                  className='portfolio-workgrp-container'
+                >
                   <h1>{workGroupdisplayName}</h1>
                   <Grid centered>
-
                     {
                       activities.map((currentActivity, activityIndex) => {
                         const {activityDate, imageUrl, activityName, activityLocation} = currentActivity
+                        const publicIdRelativeUrl = `${portfolioSectionUrl}/${workGroupName}`
+                        const curImgUrl = cloudinaryCore.url(`${publicIdRelativeUrl}/${imageUrl}`)
                         return (
-                          <Grid.Column mobile={16} tablet={8} computer={5}>
+                          <Grid.Column 
+                            mobile={16} tablet={8} computer={5} 
+                            key={`${activityName}-${activityIndex}`}>
                             <Card
+                              as='div'
                               name={activityName}
                               className='portfolio-card'
-                              key={`${activityName}-${activityIndex}`}
-                              onClick={(e, elemData) => handleItemClick({...e, elemData, currentActivity, workGroupName})} >
-                                <Image wrapped src={require( `../../static/images/works/${imageUrl}`)} />
+                              onClick={(e, elemData) => handleItemClick({...e, elemData, currentActivity, workGroupName, curImgUrl})} >
+                                <Image src={curImgUrl} wrapped ui={false} />
                                 <Card.Content>
                                   <Card.Header>{activityName}</Card.Header>
                                   <Card.Description>
