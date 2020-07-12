@@ -17,17 +17,11 @@ const AppHeaderDesktop = (props) => {
         <Menu.Item><a className="smoothscroll" href="#about">About</a></Menu.Item>
         <Menu.Item><a className="smoothscroll" href="#resume">Resume</a></Menu.Item>
         <Menu.Item><a className="smoothscroll" href="#portfolio">Works</a></Menu.Item>
-        <Menu.Item><a className="smoothscroll" href="#testimonials">Testimonials</a></Menu.Item>
+        {/* <Menu.Item><a className="smoothscroll" href="#testimonials">Testimonials</a></Menu.Item> */}
         <Menu.Item><a className="smoothscroll" href="#contact">Contact</a></Menu.Item>
       </Container>
     </Menu>
   )
 }
-/*
-<Menu.Item><NavLink to="/">Home</NavLink></Menu.Item>
-<Menu.Item><NavLink to="/about">About</NavLink></Menu.Item>
-<Menu.Item><NavLink to="/resume">Resume</NavLink></Menu.Item>
-<Menu.Item><NavLink to="/portfolio">Works</NavLink></Menu.Item>
-<Menu.Item><NavLink to="/testimonials">Testimonials</NavLink></Menu.Item>
-*/
+
 export default AppHeaderDesktop;

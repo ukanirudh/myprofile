@@ -14,7 +14,7 @@ const HomePageRoutes = () => {
       <About />
       <Resume />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer showLinks />
     </div>
   )

@@ -33,17 +33,6 @@ footer,header,hgroup,menu,nav,section {
    display: block;
 }
 
-audio,
-canvas,
-video {
-   display: inline-block;
-}
-
-audio:not([controls]) {
-   display: none;
-   height: 0;
-}
-
 [hidden] { display: none; }
 
 code, kbd, pre, samp {

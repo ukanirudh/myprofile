@@ -9,14 +9,18 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
+.margin-right-5px {
+   margin-right: 5px;
+}
 
 header {
    position: relative;
-   height: 800px;
+   height: 700px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
+   background-attachment: fixed;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
@@ -34,7 +38,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 

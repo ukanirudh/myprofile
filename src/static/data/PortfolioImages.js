@@ -38,7 +38,7 @@ export const myWorks = [
       {
         activityName: 'Sharavathi Valley',
         activityDate: 'July 2018',
-        activityLocation: 'Sharavati Valley Wildlife Sanctuary, Shimogha',
+        activityLocation: 'Sharavati Wildlife Sanctuary, Shimogha',
         imageUrl: 'sharavathi_1',
       },
 
