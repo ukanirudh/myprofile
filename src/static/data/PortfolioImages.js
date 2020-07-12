@@ -26,7 +26,7 @@ export const myWorks = [
       {
         activityName: 'Kudremukha',
         activityDate: 'Aug 2017/Sept 2018',
-        activityLocation: 'Kudremukha National park, Chickmagalur',
+        activityLocation: 'Kudremukha National park',
         imageUrl: 'kudremukha_1',
       },
       {
