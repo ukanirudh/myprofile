@@ -39,7 +39,8 @@
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "serialize-javascript": ">=2.1.1"
   },
   "dependencies": {
     "babel-plugin-import": "^1.8.0",
